@@ -19,5 +19,12 @@ username = "carolyn.s";
 // see the value stored in the var 
 console.log(username); 
 
-// declare + assogn in one step
-let luckyNum = 13;
+// declare + assign in one step
+let luckyNum = 13; // numbers don't need quotes
+console.log(luckyNum);
+// Change the value stpred in a variable (don't repeat LET) 
+luckyNum = 7; 
+console.log(luckyNum);
+
+
+

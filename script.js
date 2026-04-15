@@ -26,5 +26,20 @@ console.log(luckyNum);
 luckyNum = 7; 
 console.log(luckyNum);
 
+// MATH OPERATORS (+, -, *, /)
+let age = 15;
+console.log(age);
+let ageInTen = age + 10;
+console.log(ageInTen); 
+let ageDogYears = age / 7;
+console.log(ageDogYears); 
+// Can also do math with just numbers
+let zeusHumanAge = 7 * 7;
 
 
+// Combine two "literal" strings (CONCATENATION)
+console.log("hello" + " world");
+// OR concatenate a literal string with a variable
+console.log("my age is " + age);
+console.log("my age in ten years is " + ageInTen);
+console.log("my age in dog years is " + ageDogYears);

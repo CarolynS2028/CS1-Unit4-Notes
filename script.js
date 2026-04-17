@@ -53,3 +53,26 @@ console.log("my age in dog years is " + ageDogYears);
 // can also concatenate while making variables 
 let message = "welcome " + username + "!";
 console.log(message);
+
+
+/* FUNCTIONS: 
+    Reusable sets of code statements
+    that perform a specific task/proocess
+*/
+
+// console.log() is a built in FUNCTION we use a lot
+// TASK: display data in the console (always works the same)
+console.log("I just used a function!"); 
+// if a function needs something in the parenthesis,
+// we say it requiires PARAMETERS (input)
+
+// DEFINE (create) your own function
+function skincare() {
+    // STATEMENTS (actions) to execute in this routine
+    console.log("1. Cleanse");
+    console.log("2. Apply serums");
+    console.log("3. Moisturize");
+}
+
+// CALL the function to use it !
+skincare();

@@ -76,3 +76,20 @@ function skincare() {
 
 // CALL the function to use it !
 skincare();
+
+// ANALOGY: Functions are like RECIPIES
+// Ex. of a function that needs PARAMETERS (input/"ingredients") and RETURNS a new value (output/"meal")
+
+//if you need parameters, list some variables inside the parenthesis after the function name
+function makeSando(filling, sauce, bread) {
+    let sando; // new variable to represent sandwich
+        sando = filling + " and " + sauce + " on " + bread;
+    return sando; // OUTPUT !
+} 
+
+// must "pass in" actual arguments to use the function 
+let mySando = makeSando("swiss", "beef", "hero");
+console.log(mySando);
+
+// shortcut to see return values
+console.log( makeSando("pb", "j", "wonderbread") );
